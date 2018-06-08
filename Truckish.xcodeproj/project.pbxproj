@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA6E901F20CA84E700921F73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6E901E20CA84E700921F73 /* AppDelegate.m */; };
+		AA6E902220CA84E700921F73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6E902120CA84E700921F73 /* ViewController.m */; };
+		AA6E902520CA84E700921F73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6E902320CA84E700921F73 /* Main.storyboard */; };
+		AA6E902820CA84E700921F73 /* Truckish.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA6E902620CA84E700921F73 /* Truckish.xcdatamodeld */; };
+		AA6E902A20CA84E900921F73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA6E902920CA84E900921F73 /* Assets.xcassets */; };
+		AA6E902D20CA84E900921F73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6E902B20CA84E900921F73 /* LaunchScreen.storyboard */; };
+		AA6E903020CA84E900921F73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6E902F20CA84E900921F73 /* main.m */; };
+		AA6E903A20CA84E900921F73 /* TruckishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6E903920CA84E900921F73 /* TruckishTests.m */; };
+		AA6E904520CA84EA00921F73 /* TruckishUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6E904420CA84EA00921F73 /* TruckishUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA6E903620CA84E900921F73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6E901220CA84E700921F73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA6E901920CA84E700921F73;
+			remoteInfo = Truckish;
+		};
+		AA6E904120CA84EA00921F73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6E901220CA84E700921F73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA6E901920CA84E700921F73;
+			remoteInfo = Truckish;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA6E901A20CA84E700921F73 /* Truckish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Truckish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6E901D20CA84E700921F73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA6E901E20CA84E700921F73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA6E902020CA84E700921F73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA6E902120CA84E700921F73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA6E902420CA84E700921F73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA6E902720CA84E700921F73 /* Truckish.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Truckish.xcdatamodel; sourceTree = "<group>"; };
+		AA6E902920CA84E900921F73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA6E902C20CA84E900921F73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA6E902E20CA84E900921F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6E902F20CA84E900921F73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA6E903520CA84E900921F73 /* TruckishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruckishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6E903920CA84E900921F73 /* TruckishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TruckishTests.m; sourceTree = "<group>"; };
+		AA6E903B20CA84E900921F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6E904020CA84EA00921F73 /* TruckishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruckishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6E904420CA84EA00921F73 /* TruckishUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TruckishUITests.m; sourceTree = "<group>"; };
+		AA6E904620CA84EA00921F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA6E901720CA84E700921F73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6E903220CA84E900921F73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6E903D20CA84EA00921F73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA6E901120CA84E700921F73 = {
+			isa = PBXGroup;
+			children = (
+				AA6E901C20CA84E700921F73 /* Truckish */,
+				AA6E903820CA84E900921F73 /* TruckishTests */,
+				AA6E904320CA84EA00921F73 /* TruckishUITests */,
+				AA6E901B20CA84E700921F73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA6E901B20CA84E700921F73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA6E901A20CA84E700921F73 /* Truckish.app */,
+				AA6E903520CA84E900921F73 /* TruckishTests.xctest */,
+				AA6E904020CA84EA00921F73 /* TruckishUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA6E901C20CA84E700921F73 /* Truckish */ = {
+			isa = PBXGroup;
+			children = (
+				AA6E901D20CA84E700921F73 /* AppDelegate.h */,
+				AA6E901E20CA84E700921F73 /* AppDelegate.m */,
+				AA6E902020CA84E700921F73 /* ViewController.h */,
+				AA6E902120CA84E700921F73 /* ViewController.m */,
+				AA6E902320CA84E700921F73 /* Main.storyboard */,
+				AA6E902920CA84E900921F73 /* Assets.xcassets */,
+				AA6E902B20CA84E900921F73 /* LaunchScreen.storyboard */,
+				AA6E902E20CA84E900921F73 /* Info.plist */,
+				AA6E902F20CA84E900921F73 /* main.m */,
+				AA6E902620CA84E700921F73 /* Truckish.xcdatamodeld */,
+			);
+			path = Truckish;
+			sourceTree = "<group>";
+		};
+		AA6E903820CA84E900921F73 /* TruckishTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA6E903920CA84E900921F73 /* TruckishTests.m */,
+				AA6E903B20CA84E900921F73 /* Info.plist */,
+			);
+			path = TruckishTests;
+			sourceTree = "<group>";
+		};
+		AA6E904320CA84EA00921F73 /* TruckishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA6E904420CA84EA00921F73 /* TruckishUITests.m */,
+				AA6E904620CA84EA00921F73 /* Info.plist */,
+			);
+			path = TruckishUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA6E901920CA84E700921F73 /* Truckish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6E904920CA84EA00921F73 /* Build configuration list for PBXNativeTarget "Truckish" */;
+			buildPhases = (
+				AA6E901620CA84E700921F73 /* Sources */,
+				AA6E901720CA84E700921F73 /* Frameworks */,
+				AA6E901820CA84E700921F73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Truckish;
+			productName = Truckish;
+			productReference = AA6E901A20CA84E700921F73 /* Truckish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA6E903420CA84E900921F73 /* TruckishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6E904C20CA84EA00921F73 /* Build configuration list for PBXNativeTarget "TruckishTests" */;
+			buildPhases = (
+				AA6E903120CA84E900921F73 /* Sources */,
+				AA6E903220CA84E900921F73 /* Frameworks */,
+				AA6E903320CA84E900921F73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA6E903720CA84E900921F73 /* PBXTargetDependency */,
+			);
+			name = TruckishTests;
+			productName = TruckishTests;
+			productReference = AA6E903520CA84E900921F73 /* TruckishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA6E903F20CA84EA00921F73 /* TruckishUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6E904F20CA84EA00921F73 /* Build configuration list for PBXNativeTarget "TruckishUITests" */;
+			buildPhases = (
+				AA6E903C20CA84EA00921F73 /* Sources */,
+				AA6E903D20CA84EA00921F73 /* Frameworks */,
+				AA6E903E20CA84EA00921F73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA6E904220CA84EA00921F73 /* PBXTargetDependency */,
+			);
+			name = TruckishUITests;
+			productName = TruckishUITests;
+			productReference = AA6E904020CA84EA00921F73 /* TruckishUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA6E901220CA84E700921F73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Abhijit Paul";
+				TargetAttributes = {
+					AA6E901920CA84E700921F73 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					AA6E903420CA84E900921F73 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AA6E901920CA84E700921F73;
+					};
+					AA6E903F20CA84EA00921F73 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AA6E901920CA84E700921F73;
+					};
+				};
+			};
+			buildConfigurationList = AA6E901520CA84E700921F73 /* Build configuration list for PBXProject "Truckish" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA6E901120CA84E700921F73;
+			productRefGroup = AA6E901B20CA84E700921F73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA6E901920CA84E700921F73 /* Truckish */,
+				AA6E903420CA84E900921F73 /* TruckishTests */,
+				AA6E903F20CA84EA00921F73 /* TruckishUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA6E901820CA84E700921F73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6E902D20CA84E900921F73 /* LaunchScreen.storyboard in Resources */,
+				AA6E902A20CA84E900921F73 /* Assets.xcassets in Resources */,
+				AA6E902520CA84E700921F73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6E903320CA84E900921F73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6E903E20CA84EA00921F73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA6E901620CA84E700921F73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6E902820CA84E700921F73 /* Truckish.xcdatamodeld in Sources */,
+				AA6E902220CA84E700921F73 /* ViewController.m in Sources */,
+				AA6E903020CA84E900921F73 /* main.m in Sources */,
+				AA6E901F20CA84E700921F73 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6E903120CA84E900921F73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6E903A20CA84E900921F73 /* TruckishTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6E903C20CA84EA00921F73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6E904520CA84EA00921F73 /* TruckishUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA6E903720CA84E900921F73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA6E901920CA84E700921F73 /* Truckish */;
+			targetProxy = AA6E903620CA84E900921F73 /* PBXContainerItemProxy */;
+		};
+		AA6E904220CA84EA00921F73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA6E901920CA84E700921F73 /* Truckish */;
+			targetProxy = AA6E904120CA84EA00921F73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA6E902320CA84E700921F73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA6E902420CA84E700921F73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA6E902B20CA84E900921F73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA6E902C20CA84E900921F73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA6E904720CA84EA00921F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA6E904820CA84EA00921F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA6E904A20CA84EA00921F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RN4T3VPAA8;
+				INFOPLIST_FILE = Truckish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.truckish.Truckish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA6E904B20CA84EA00921F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RN4T3VPAA8;
+				INFOPLIST_FILE = Truckish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.truckish.Truckish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA6E904D20CA84EA00921F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RN4T3VPAA8;
+				INFOPLIST_FILE = TruckishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.truckish.TruckishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Truckish.app/Truckish";
+			};
+			name = Debug;
+		};
+		AA6E904E20CA84EA00921F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RN4T3VPAA8;
+				INFOPLIST_FILE = TruckishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.truckish.TruckishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Truckish.app/Truckish";
+			};
+			name = Release;
+		};
+		AA6E905020CA84EA00921F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RN4T3VPAA8;
+				INFOPLIST_FILE = TruckishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.truckish.TruckishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Truckish;
+			};
+			name = Debug;
+		};
+		AA6E905120CA84EA00921F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RN4T3VPAA8;
+				INFOPLIST_FILE = TruckishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.truckish.TruckishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Truckish;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA6E901520CA84E700921F73 /* Build configuration list for PBXProject "Truckish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6E904720CA84EA00921F73 /* Debug */,
+				AA6E904820CA84EA00921F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6E904920CA84EA00921F73 /* Build configuration list for PBXNativeTarget "Truckish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6E904A20CA84EA00921F73 /* Debug */,
+				AA6E904B20CA84EA00921F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6E904C20CA84EA00921F73 /* Build configuration list for PBXNativeTarget "TruckishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6E904D20CA84EA00921F73 /* Debug */,
+				AA6E904E20CA84EA00921F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6E904F20CA84EA00921F73 /* Build configuration list for PBXNativeTarget "TruckishUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6E905020CA84EA00921F73 /* Debug */,
+				AA6E905120CA84EA00921F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA6E902620CA84E700921F73 /* Truckish.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA6E902720CA84E700921F73 /* Truckish.xcdatamodel */,
+			);
+			currentVersion = AA6E902720CA84E700921F73 /* Truckish.xcdatamodel */;
+			path = Truckish.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA6E901220CA84E700921F73 /* Project object */;
+}
