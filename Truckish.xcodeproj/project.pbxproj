@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		016A5B77703EFE259F546A00 /* Pods_TruckishUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61C5E212C61BB5B09E06AA7 /* Pods_TruckishUITests.framework */; };
+		152C4C2DE365A182C912A489 /* Pods_TruckishTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4EA28763C076EA8177BCA87 /* Pods_TruckishTests.framework */; };
+		56C7E0E5AEC085B798183813 /* Pods_Truckish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA59B40381C2256BB20D18BA /* Pods_Truckish.framework */; };
+		AA163EA320D0186E00A2F6CE /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA163EA220D0186E00A2F6CE /* ProfileViewController.m */; };
+		AA3E4E3E20CE9EA4006C860A /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3E4E3D20CE9EA4006C860A /* RegisterViewController.m */; };
+		AA3E4E4320CEB280006C860A /* PlaceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3E4E4220CEB280006C860A /* PlaceModel.m */; };
+		AA3E4E4920CEFD0F006C860A /* JSONManeger.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3E4E4520CEFD0D006C860A /* JSONManeger.m */; };
+		AA3E4E4A20CEFD0F006C860A /* JsonAPICall.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3E4E4620CEFD0E006C860A /* JsonAPICall.m */; };
 		AA6E901F20CA84E700921F73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6E901E20CA84E700921F73 /* AppDelegate.m */; };
 		AA6E902220CA84E700921F73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6E902120CA84E700921F73 /* ViewController.m */; };
 		AA6E902520CA84E700921F73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6E902320CA84E700921F73 /* Main.storyboard */; };
@@ -16,6 +24,18 @@
 		AA6E903020CA84E900921F73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6E902F20CA84E900921F73 /* main.m */; };
 		AA6E903A20CA84E900921F73 /* TruckishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6E903920CA84E900921F73 /* TruckishTests.m */; };
 		AA6E904520CA84EA00921F73 /* TruckishUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6E904420CA84EA00921F73 /* TruckishUITests.m */; };
+		AA7ACE6720CE8467001014F0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA7ACE6620CE8467001014F0 /* GoogleService-Info.plist */; };
+		AAD65D7920CF23D5000BDB45 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD65D7820CF23D5000BDB45 /* GoogleMapsCore.framework */; };
+		AAD65D7C20CF34F2000BDB45 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = AAD65D7B20CF34F2000BDB45 /* style.json */; };
+		AADD9D4320CA8F88006CE212 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADD9D4220CA8F88006CE212 /* Images.xcassets */; };
+		AADD9D4A20CA9BCF006CE212 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = AADD9D4920CA9BCF006CE212 /* Singleton.m */; };
+		AADD9D4E20CAB730006CE212 /* InitialListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AADD9D4D20CAB730006CE212 /* InitialListViewController.m */; };
+		AADD9D5320CAC0C2006CE212 /* InitialListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AADD9D5120CAC0C1006CE212 /* InitialListTableViewCell.m */; };
+		AADD9D5420CAC0C2006CE212 /* InitialListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AADD9D5220CAC0C2006CE212 /* InitialListTableViewCell.xib */; };
+		AADD9D5920CAFC90006CE212 /* PopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AADD9D5820CAFC90006CE212 /* PopUpViewController.m */; };
+		AADD9D5D20CB02BE006CE212 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AADD9D5C20CB02BE006CE212 /* MapViewController.m */; };
+		AADD9D6120CB057B006CE212 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AADD9D6020CB057B006CE212 /* MainTabBarViewController.m */; };
+		AADD9D6420CB088D006CE212 /* InitialNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AADD9D6320CB088D006CE212 /* InitialNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +56,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		87042A69103D6885AB107432 /* Pods-Truckish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Truckish.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Truckish/Pods-Truckish.debug.xcconfig"; sourceTree = "<group>"; };
+		AA163EA120D0186E00A2F6CE /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		AA163EA220D0186E00A2F6CE /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		AA3E4E3A20CE8FEA006C860A /* Truckish.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Truckish.entitlements; sourceTree = "<group>"; };
+		AA3E4E3C20CE9EA4006C860A /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		AA3E4E3D20CE9EA4006C860A /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		AA3E4E4120CEB280006C860A /* PlaceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaceModel.h; sourceTree = "<group>"; };
+		AA3E4E4220CEB280006C860A /* PlaceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceModel.m; sourceTree = "<group>"; };
+		AA3E4E4520CEFD0D006C860A /* JSONManeger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONManeger.m; sourceTree = "<group>"; };
+		AA3E4E4620CEFD0E006C860A /* JsonAPICall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonAPICall.m; sourceTree = "<group>"; };
+		AA3E4E4720CEFD0F006C860A /* JsonAPICall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonAPICall.h; sourceTree = "<group>"; };
+		AA3E4E4820CEFD0F006C860A /* JSONManeger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONManeger.h; sourceTree = "<group>"; };
 		AA6E901A20CA84E700921F73 /* Truckish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Truckish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6E901D20CA84E700921F73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA6E901E20CA84E700921F73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +85,34 @@
 		AA6E904020CA84EA00921F73 /* TruckishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruckishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6E904420CA84EA00921F73 /* TruckishUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TruckishUITests.m; sourceTree = "<group>"; };
 		AA6E904620CA84EA00921F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7ACE6620CE8467001014F0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AAD65D7820CF23D5000BDB45 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Pods/GoogleMaps/Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		AAD65D7B20CF34F2000BDB45 /* style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
+		AADD9D4220CA8F88006CE212 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AADD9D4720CA9A47006CE212 /* TruckishPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TruckishPrefixHeader.pch; sourceTree = "<group>"; };
+		AADD9D4820CA9BCF006CE212 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		AADD9D4920CA9BCF006CE212 /* Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		AADD9D4C20CAB730006CE212 /* InitialListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitialListViewController.h; sourceTree = "<group>"; };
+		AADD9D4D20CAB730006CE212 /* InitialListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InitialListViewController.m; sourceTree = "<group>"; };
+		AADD9D5020CAC0C1006CE212 /* InitialListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitialListTableViewCell.h; sourceTree = "<group>"; };
+		AADD9D5120CAC0C1006CE212 /* InitialListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InitialListTableViewCell.m; sourceTree = "<group>"; };
+		AADD9D5220CAC0C2006CE212 /* InitialListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InitialListTableViewCell.xib; sourceTree = "<group>"; };
+		AADD9D5720CAFC90006CE212 /* PopUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopUpViewController.h; sourceTree = "<group>"; };
+		AADD9D5820CAFC90006CE212 /* PopUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopUpViewController.m; sourceTree = "<group>"; };
+		AADD9D5B20CB02BE006CE212 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		AADD9D5C20CB02BE006CE212 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		AADD9D5F20CB057B006CE212 /* MainTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		AADD9D6020CB057B006CE212 /* MainTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		AADD9D6220CB088D006CE212 /* InitialNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitialNavigationViewController.h; sourceTree = "<group>"; };
+		AADD9D6320CB088D006CE212 /* InitialNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InitialNavigationViewController.m; sourceTree = "<group>"; };
+		AD7C10B656D097507F78A55D /* Pods-TruckishUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruckishUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TruckishUITests/Pods-TruckishUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4EA28763C076EA8177BCA87 /* Pods_TruckishTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TruckishTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA59B40381C2256BB20D18BA /* Pods_Truckish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Truckish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D72937A080A6CAEEDC66EA /* Pods-TruckishTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruckishTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TruckishTests/Pods-TruckishTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE6FE1A1E1DEBCDB2C3FEE96 /* Pods-Truckish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Truckish.release.xcconfig"; path = "Pods/Target Support Files/Pods-Truckish/Pods-Truckish.release.xcconfig"; sourceTree = "<group>"; };
+		E46869C2823AF8B49CD9EB61 /* Pods-TruckishUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruckishUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TruckishUITests/Pods-TruckishUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E61C5E212C61BB5B09E06AA7 /* Pods_TruckishUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TruckishUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F97CD607C95FD84355D012A3 /* Pods-TruckishTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruckishTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TruckishTests/Pods-TruckishTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +120,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD65D7920CF23D5000BDB45 /* GoogleMapsCore.framework in Frameworks */,
+				56C7E0E5AEC085B798183813 /* Pods_Truckish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				152C4C2DE365A182C912A489 /* Pods_TruckishTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,19 +137,82 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016A5B77703EFE259F546A00 /* Pods_TruckishUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45DA16E98ACE15A4649BC608 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87042A69103D6885AB107432 /* Pods-Truckish.debug.xcconfig */,
+				DE6FE1A1E1DEBCDB2C3FEE96 /* Pods-Truckish.release.xcconfig */,
+				D8D72937A080A6CAEEDC66EA /* Pods-TruckishTests.debug.xcconfig */,
+				F97CD607C95FD84355D012A3 /* Pods-TruckishTests.release.xcconfig */,
+				AD7C10B656D097507F78A55D /* Pods-TruckishUITests.debug.xcconfig */,
+				E46869C2823AF8B49CD9EB61 /* Pods-TruckishUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA163E9F20D0183F00A2F6CE /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				AADD9D4B20CAB6FF006CE212 /* Initial List View Controller */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		AA163EA020D0185400A2F6CE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AA163EA120D0186E00A2F6CE /* ProfileViewController.h */,
+				AA163EA220D0186E00A2F6CE /* ProfileViewController.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		AA3E4E3B20CE9E0C006C860A /* Register View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA3E4E3C20CE9EA4006C860A /* RegisterViewController.h */,
+				AA3E4E3D20CE9EA4006C860A /* RegisterViewController.m */,
+			);
+			path = "Register View Controller";
+			sourceTree = "<group>";
+		};
+		AA3E4E4020CEB265006C860A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA3E4E4120CEB280006C860A /* PlaceModel.h */,
+				AA3E4E4220CEB280006C860A /* PlaceModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA3E4E4420CEFCFD006C860A /* Json Manager */ = {
+			isa = PBXGroup;
+			children = (
+				AA3E4E4720CEFD0F006C860A /* JsonAPICall.h */,
+				AA3E4E4620CEFD0E006C860A /* JsonAPICall.m */,
+				AA3E4E4820CEFD0F006C860A /* JSONManeger.h */,
+				AA3E4E4520CEFD0D006C860A /* JSONManeger.m */,
+			);
+			path = "Json Manager";
+			sourceTree = "<group>";
+		};
 		AA6E901120CA84E700921F73 = {
 			isa = PBXGroup;
 			children = (
+				AA7ACE6620CE8467001014F0 /* GoogleService-Info.plist */,
 				AA6E901C20CA84E700921F73 /* Truckish */,
 				AA6E903820CA84E900921F73 /* TruckishTests */,
 				AA6E904320CA84EA00921F73 /* TruckishUITests */,
 				AA6E901B20CA84E700921F73 /* Products */,
+				45DA16E98ACE15A4649BC608 /* Pods */,
+				B18C12B514DEA76FA0F3BAB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +229,15 @@
 		AA6E901C20CA84E700921F73 /* Truckish */ = {
 			isa = PBXGroup;
 			children = (
-				AA6E901D20CA84E700921F73 /* AppDelegate.h */,
-				AA6E901E20CA84E700921F73 /* AppDelegate.m */,
-				AA6E902020CA84E700921F73 /* ViewController.h */,
-				AA6E902120CA84E700921F73 /* ViewController.m */,
+				AA3E4E3A20CE8FEA006C860A /* Truckish.entitlements */,
+				AADD9D4420CA99E1006CE212 /* Support Files */,
+				AADD9D3F20CA897E006CE212 /* App Delegate */,
+				AA3E4E3B20CE9E0C006C860A /* Register View Controller */,
+				AADD9D4020CA8995006CE212 /* Login View Controller */,
+				AADD9D5E20CB055A006CE212 /* Tab Bar Controller */,
 				AA6E902320CA84E700921F73 /* Main.storyboard */,
 				AA6E902920CA84E900921F73 /* Assets.xcassets */,
+				AADD9D4220CA8F88006CE212 /* Images.xcassets */,
 				AA6E902B20CA84E900921F73 /* LaunchScreen.storyboard */,
 				AA6E902E20CA84E900921F73 /* Info.plist */,
 				AA6E902F20CA84E900921F73 /* main.m */,
@@ -135,6 +264,125 @@
 			path = TruckishUITests;
 			sourceTree = "<group>";
 		};
+		AADD9D3F20CA897E006CE212 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				AA6E901D20CA84E700921F73 /* AppDelegate.h */,
+				AA6E901E20CA84E700921F73 /* AppDelegate.m */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		AADD9D4020CA8995006CE212 /* Login View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA6E902020CA84E700921F73 /* ViewController.h */,
+				AA6E902120CA84E700921F73 /* ViewController.m */,
+			);
+			path = "Login View Controller";
+			sourceTree = "<group>";
+		};
+		AADD9D4420CA99E1006CE212 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAD65D7B20CF34F2000BDB45 /* style.json */,
+				AA3E4E4420CEFCFD006C860A /* Json Manager */,
+				AADD9D4620CA9A2B006CE212 /* PCH Header */,
+				AADD9D4520CA99E8006CE212 /* Singleton */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		AADD9D4520CA99E8006CE212 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				AADD9D4820CA9BCF006CE212 /* Singleton.h */,
+				AADD9D4920CA9BCF006CE212 /* Singleton.m */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		AADD9D4620CA9A2B006CE212 /* PCH Header */ = {
+			isa = PBXGroup;
+			children = (
+				AADD9D4720CA9A47006CE212 /* TruckishPrefixHeader.pch */,
+			);
+			path = "PCH Header";
+			sourceTree = "<group>";
+		};
+		AADD9D4B20CAB6FF006CE212 /* Initial List View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AADD9D6220CB088D006CE212 /* InitialNavigationViewController.h */,
+				AADD9D6320CB088D006CE212 /* InitialNavigationViewController.m */,
+				AADD9D6520CB0898006CE212 /* View Controller */,
+				AADD9D5A20CB0232006CE212 /* Map View Controller */,
+			);
+			path = "Initial List View Controller";
+			sourceTree = "<group>";
+		};
+		AADD9D4F20CAC09B006CE212 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				AADD9D5020CAC0C1006CE212 /* InitialListTableViewCell.h */,
+				AADD9D5120CAC0C1006CE212 /* InitialListTableViewCell.m */,
+				AADD9D5220CAC0C2006CE212 /* InitialListTableViewCell.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		AADD9D5620CAFC53006CE212 /* Pop Up View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AADD9D5720CAFC90006CE212 /* PopUpViewController.h */,
+				AADD9D5820CAFC90006CE212 /* PopUpViewController.m */,
+			);
+			path = "Pop Up View Controller";
+			sourceTree = "<group>";
+		};
+		AADD9D5A20CB0232006CE212 /* Map View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AADD9D5B20CB02BE006CE212 /* MapViewController.h */,
+				AADD9D5C20CB02BE006CE212 /* MapViewController.m */,
+			);
+			path = "Map View Controller";
+			sourceTree = "<group>";
+		};
+		AADD9D5E20CB055A006CE212 /* Tab Bar Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AADD9D5F20CB057B006CE212 /* MainTabBarViewController.h */,
+				AADD9D6020CB057B006CE212 /* MainTabBarViewController.m */,
+				AA163EA020D0185400A2F6CE /* Profile */,
+				AA163E9F20D0183F00A2F6CE /* Dashboard */,
+			);
+			path = "Tab Bar Controller";
+			sourceTree = "<group>";
+		};
+		AADD9D6520CB0898006CE212 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AADD9D4C20CAB730006CE212 /* InitialListViewController.h */,
+				AADD9D4D20CAB730006CE212 /* InitialListViewController.m */,
+				AA3E4E4020CEB265006C860A /* Model */,
+				AADD9D5620CAFC53006CE212 /* Pop Up View Controller */,
+				AADD9D4F20CAC09B006CE212 /* XIB */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		B18C12B514DEA76FA0F3BAB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAD65D7820CF23D5000BDB45 /* GoogleMapsCore.framework */,
+				CA59B40381C2256BB20D18BA /* Pods_Truckish.framework */,
+				B4EA28763C076EA8177BCA87 /* Pods_TruckishTests.framework */,
+				E61C5E212C61BB5B09E06AA7 /* Pods_TruckishUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +390,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA6E904920CA84EA00921F73 /* Build configuration list for PBXNativeTarget "Truckish" */;
 			buildPhases = (
+				DCAC14EB6F777146696D9724 /* [CP] Check Pods Manifest.lock */,
 				AA6E901620CA84E700921F73 /* Sources */,
 				AA6E901720CA84E700921F73 /* Frameworks */,
 				AA6E901820CA84E700921F73 /* Resources */,
+				3C779EAE462D540004C4DA84 /* [CP] Embed Pods Frameworks */,
+				769458922C95C10D85402DE4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,6 +410,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA6E904C20CA84EA00921F73 /* Build configuration list for PBXNativeTarget "TruckishTests" */;
 			buildPhases = (
+				810DDF9A2F60208129499D37 /* [CP] Check Pods Manifest.lock */,
 				AA6E903120CA84E900921F73 /* Sources */,
 				AA6E903220CA84E900921F73 /* Frameworks */,
 				AA6E903320CA84E900921F73 /* Resources */,
@@ -177,6 +429,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA6E904F20CA84EA00921F73 /* Build configuration list for PBXNativeTarget "TruckishUITests" */;
 			buildPhases = (
+				438A3AD0A1F6ABF48CF9140D /* [CP] Check Pods Manifest.lock */,
 				AA6E903C20CA84EA00921F73 /* Sources */,
 				AA6E903D20CA84EA00921F73 /* Frameworks */,
 				AA6E903E20CA84EA00921F73 /* Resources */,
@@ -202,6 +455,11 @@
 				TargetAttributes = {
 					AA6E901920CA84E700921F73 = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					AA6E903420CA84E900921F73 = {
 						CreatedOnToolsVersion = 9.3;
@@ -238,9 +496,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA7ACE6720CE8467001014F0 /* GoogleService-Info.plist in Resources */,
 				AA6E902D20CA84E900921F73 /* LaunchScreen.storyboard in Resources */,
+				AADD9D4320CA8F88006CE212 /* Images.xcassets in Resources */,
 				AA6E902A20CA84E900921F73 /* Assets.xcassets in Resources */,
 				AA6E902520CA84E700921F73 /* Main.storyboard in Resources */,
+				AAD65D7C20CF34F2000BDB45 /* style.json in Resources */,
+				AADD9D5420CAC0C2006CE212 /* InitialListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,15 +522,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C779EAE462D540004C4DA84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Truckish/Pods-Truckish-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/UIFloatLabelTextField/UIFloatLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIFloatLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Truckish/Pods-Truckish-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		438A3AD0A1F6ABF48CF9140D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TruckishUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		769458922C95C10D85402DE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Truckish/Pods-Truckish-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Truckish/Pods-Truckish-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		810DDF9A2F60208129499D37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TruckishTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCAC14EB6F777146696D9724 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Truckish-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AA6E901620CA84E700921F73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AA6E902820CA84E700921F73 /* Truckish.xcdatamodeld in Sources */,
+				AADD9D6420CB088D006CE212 /* InitialNavigationViewController.m in Sources */,
+				AA163EA320D0186E00A2F6CE /* ProfileViewController.m in Sources */,
 				AA6E902220CA84E700921F73 /* ViewController.m in Sources */,
 				AA6E903020CA84E900921F73 /* main.m in Sources */,
+				AADD9D5D20CB02BE006CE212 /* MapViewController.m in Sources */,
+				AADD9D5920CAFC90006CE212 /* PopUpViewController.m in Sources */,
+				AADD9D4E20CAB730006CE212 /* InitialListViewController.m in Sources */,
+				AA3E4E4320CEB280006C860A /* PlaceModel.m in Sources */,
+				AA3E4E3E20CE9EA4006C860A /* RegisterViewController.m in Sources */,
+				AA3E4E4A20CEFD0F006C860A /* JsonAPICall.m in Sources */,
 				AA6E901F20CA84E700921F73 /* AppDelegate.m in Sources */,
+				AADD9D6120CB057B006CE212 /* MainTabBarViewController.m in Sources */,
+				AADD9D4A20CA9BCF006CE212 /* Singleton.m in Sources */,
+				AADD9D5320CAC0C2006CE212 /* InitialListTableViewCell.m in Sources */,
+				AA3E4E4920CEFD0F006C860A /* JSONManeger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,10 +826,17 @@
 		};
 		AA6E904A20CA84EA00921F73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87042A69103D6885AB107432 /* Pods-Truckish.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Truckish/Truckish.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RN4T3VPAA8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Maps/Frameworks",
+				);
+				GCC_PREFIX_HEADER = "Truckish/Support Files/PCH Header/TruckishPrefixHeader.pch";
 				INFOPLIST_FILE = Truckish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,10 +850,17 @@
 		};
 		AA6E904B20CA84EA00921F73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE6FE1A1E1DEBCDB2C3FEE96 /* Pods-Truckish.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Truckish/Truckish.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RN4T3VPAA8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Maps/Frameworks",
+				);
+				GCC_PREFIX_HEADER = "Truckish/Support Files/PCH Header/TruckishPrefixHeader.pch";
 				INFOPLIST_FILE = Truckish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -469,6 +874,7 @@
 		};
 		AA6E904D20CA84EA00921F73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8D72937A080A6CAEEDC66EA /* Pods-TruckishTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +894,7 @@
 		};
 		AA6E904E20CA84EA00921F73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F97CD607C95FD84355D012A3 /* Pods-TruckishTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +914,7 @@
 		};
 		AA6E905020CA84EA00921F73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD7C10B656D097507F78A55D /* Pods-TruckishUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RN4T3VPAA8;
@@ -525,6 +933,7 @@
 		};
 		AA6E905120CA84EA00921F73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E46869C2823AF8B49CD9EB61 /* Pods-TruckishUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RN4T3VPAA8;

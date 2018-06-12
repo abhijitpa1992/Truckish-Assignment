@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Truckish' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  use_frameworks!
+  pod 'UIFloatLabelTextField'  
+  pod 'FBSDKLoginKit'
+  pod 'Firebase/Core'
+  pod 'FirebaseUI/Auth'
+  pod 'Firebase/Database'
+  pod 'GoogleMaps'
+  pod 'GooglePlaces' 
+  pod 'GoogleSignIn'
+  pod 'AFNetworking', '~> 3.0'  
+# Pods for Truckish
+
+  target 'TruckishTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TruckishUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

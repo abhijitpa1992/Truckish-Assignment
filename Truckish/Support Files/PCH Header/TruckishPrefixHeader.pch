@@ -1,0 +1,37 @@
+//
+//  TruckishPrefixHeader.pch
+//  Truckish
+//
+//  Created by Abhijit Paul on 08/06/18.
+//  Copyright © 2018 Abhijit Paul. All rights reserved.
+//
+
+#ifndef TruckishPrefixHeader_pch
+#define TruckishPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define WEATHER_APPID   @"8965c2d5418348ed7861e77ec4b56cbe"
+#define GOOGLE_APPKEY   @"AIzaSyCXmf6E0M1mgtO2KKbK4X7JdQm0fHdCN2U"
+
+#import "AppDelegate.h"
+#import "Singleton.h"
+#import "InitialListTableViewCell.h"
+#import "InitialListViewController.h"
+#import "PopUpViewController.h"
+#import "MapViewController.h"
+#import "MainTabBarViewController.h"
+#import <UIFloatLabelTextField/UIFloatLabelTextField.h>
+#import "RegisterViewController.h"
+@import Firebase;
+@import GoogleSignIn;
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import "PlaceModel.h"
+#import "JsonAPICall.h"
+#import "JSONManeger.h"
+#import "ProfileViewController.h"
+#import "InitialNavigationViewController.h"
+
+#endif /* TruckishPrefixHeader_pch */

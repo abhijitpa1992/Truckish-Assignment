@@ -1,45 +1,74 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+# Truckish Assignment
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+A list view iOS Application written in Objective C.
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
 
----
+## Features
 
-## Edit a file
+Firebase Authentication
+Firebase Social Login
+Firebase Database Connection
+Open Weather API
+Google Address Decoder
+Google Maps
+Google Directions
+Google Distance Calculator
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+## Supported Devices
 
----
+iPhone with iOS 10 or later
 
-## Create a file
 
-Next, you’ll add a new file to this repository.
+## Installing
 
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
+Go to application folder from terminal
+Run the comman 'pod install' (requires CocoaPods)
+open truckish.xcworkspace
 
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
 
----
+## Architecture
 
-## Clone a repository
+1. Tab Bar Controller
 
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
+MainTabBarViewController --> adds all the view controllers and manages the tab bar icon used for each controller.
 
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
+2. Navigation Controllers
 
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+InitialNavigationViewController --> used to manage stack of InitialListViewController, PopUpViewController and MapViewController
+
+
+3. View Controllers
+
+LoginViewController: Shows the login view where user can log in using firebase username password or social media. Unregistered user can also register by clicking the register button
+
+RegisterViewController: Registers a user in the firebase database for authentication. User after successful registration can use the credentials to log in.
+
+InitialListViewController: Shows the list of places from the firebase database
+
+PopUpViewController: Shows the detailed view of a place with address, temperature. Presents modally
+
+MapViewController: Show the place in google maps and the direction route from current location. Also shows the distance between.
+
+ProfileViewController: Dummy profile view with log out button for log out functionality.
+
+4. Models
+
+PlaceModel: Creates and object of a place and hold its key and value. 
+
+
+## Support Files
+
+1. Json Manager
+
+JsonAPICall --> Acts as a mediatior to pass network api call request to JSONManager and send back the response to perticular delegate.
+
+JSONManager --> Makes network connection to the backend and fetches the response. Uses AFNetworking.
+
+2. PCH Header
+
+TruckishPrefixHeader: Used to access every file from any class.
+
+3. Singleton --> make functions public which can be used by any class.
+
+4. style.json --> is used for custom styling of google maps.
